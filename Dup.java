@@ -12,10 +12,7 @@ public class Dup {
                 H.put(s.charAt(i),1);
                 sb.append(s.charAt(i));
             }i++;
-            // else{
-            //     H.put(s.charAt(i),1);
-            //     sb.append(s.charAt(i));
-            // }
+            
         }
         String d=sb.toString();
         System.out.println(d);
